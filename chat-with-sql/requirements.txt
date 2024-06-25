@@ -1,0 +1,7 @@
+langchain
+langchain_openai
+langchain_community
+python_dotenv
+streamlit
+pymssql
+pyodbc
