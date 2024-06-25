@@ -19,3 +19,12 @@ contins the below columns
 
 ### Background agent processing
 ![alt text](image-2.png)
+
+
+# Environment file
+create a .env file and add the OPEN AI API as below
+OPENAI_API_KEY = sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# Run the App
+To run the application use
+> streamlit run main.py
