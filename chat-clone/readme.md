@@ -13,10 +13,10 @@
 - Input your OpenAI_API_KEY
 - Create the Venv
 - use the Requirements.txt to install the python packages
-  '''python
+  
   pip install -r requirements.txt
-  '''
+  
 - Run the Streamlit application using
-  '''python
+  
   streamlit run main.py
-  '''
+  
