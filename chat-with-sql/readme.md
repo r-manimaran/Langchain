@@ -4,7 +4,7 @@
 Uses the MS SQL Server table which contains 1 table GasExpenses
 To connect to Database I am using ODBC and Sqlalchemy engine
 
-contins the below columns
+contains the below columns
 - Id
 - DateFilled
 - Price
