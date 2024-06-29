@@ -10,12 +10,24 @@ Tools are interfaces that a agent, chain or LLM can use to interact with the wor
 
 
 ## Vector Search in Faiss Db
+Query in the code:
+![alt text](image-4.png)
+
+Output:
 ![alt text](image-2.png)
 
 ## Wikipedia Search
+Query in the code:
+![alt text](image-5.png)
+
+Output:
 ![alt text](image.png)
 
 ## Arxiv Search output
+Query in the code:
+![alt text](image-6.png)
+
+Output:
 ![alt text](image-1.png)
 
 ## Adding Streamlit app
