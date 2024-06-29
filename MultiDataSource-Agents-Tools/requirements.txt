@@ -1,0 +1,9 @@
+langchain
+langchain_openai
+langchain_community
+langchainhub
+python_dotenv
+streamlit
+arxiv
+wikipedia
+faiss-cpu

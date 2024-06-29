@@ -1,7 +1,7 @@
 ## Chat like ChatGPT
-> Uses Streamlit for the UI
-> Uses Streamlit session state to store the previous conversation
-> Will Print the Tokens, Cost used on each response
+- Uses Streamlit for the UI
+- Uses Streamlit session state to store the previous conversation
+- Will Print the Tokens, Cost used on each response
 
 
 # App UI
