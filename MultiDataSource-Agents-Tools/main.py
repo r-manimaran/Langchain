@@ -70,8 +70,8 @@ agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 # print(f'6. Response: {response["output"]}')
 
 #Below uses Arxiv and search in research paper
-#response = agent_executor.invoke({"input": "What is the paper 1605.08386 talks about?"}, include_run_info=True)
-#print(f'6. Response: {response["output"]}')
+response = agent_executor.invoke({"input": "What is the paper 1605.08386 talks about?"}, include_run_info=True)
+print(f'6. Response: {response["output"]}')
 
 # use streamlit app to get output and print response
 import streamlit as st
