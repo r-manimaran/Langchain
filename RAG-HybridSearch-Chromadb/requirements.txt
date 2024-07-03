@@ -1,0 +1,11 @@
+langchain_openai
+langchain_community
+langchain
+rank_bm25
+pypdf
+unstructured
+chromadb
+pdfminer
+python-dotenv
+unstructured[all-docs]
+psutil
