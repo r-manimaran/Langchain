@@ -15,6 +15,15 @@
 - Rename the .env.example file to .env.
 - Populate the value for the keys in the .env file
 
+### Run the application
+```bash
+    # With Streamlit input and hard-coded questions in the code
+    > python main.py
+    # with Streamlit to input dynamic question and get output
+    > Streamlit run main.py
+    # Browse the application with the Url (http://localhost:8501)
+```
+
 ## Responses
 ### Question 1:
 ![alt text](image.png)
@@ -27,4 +36,6 @@
 ![alt text](image-2.png)
 
 
+## Output using Streamlit user input
 
+![alt text](image-3.png)

@@ -36,6 +36,12 @@ open_ai_agent = initialize_agent(
    verbose=True
  )
 
+'''
+Uncomment this if not to use Streamlit and test
+in terminal with python3
+
+
+#
 # Question 1:
 q1 = "What is the stock price of AAPL today?"
 response = open_ai_agent.invoke(q1)
@@ -60,3 +66,15 @@ print(f'Response: {response3}')
 # response4 = open_ai_agent.invoke(q4)
 # print(q4)
 # print(f'Response: {response4}')
+'''
+
+# Use Streamlit to build a simple web app to interact with the AI agent
+import streamlit as st
+st.set_page_config(page_title="Stock Price Analysis", layout="wide")
+st.title("Stock Price Analysis using Yahoo Finance")
+user_question = st.text_input("Ask a question about your stocks: ")
+if len(user_question) == 0:
+    st.write("Please enter a question")
+    st.stop()
+response = open_ai_agent.invoke(user_question)
+st.json(response)
