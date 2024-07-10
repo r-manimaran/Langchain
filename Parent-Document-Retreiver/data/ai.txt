@@ -1,0 +1,33 @@
+An increase in cloud tools and the need to process a mountain of raw data created a significant rise in demand for data engineers. Data engineers build data pipelines. They’re also the backbone of data infrastructure design and algorithm development. Data engineers are essential for making data more useful to companies.
+
+To build such a rich data infrastructure, data engineers require a mix of different programming languages, data management tools, data warehouses, and whole sets of other tools for data processing, data analytics, and AI/ML.
+
+This post will highlight the top 10 tools that data engineers use for building effective, efficient data infrastructure.
+
+The Not-so-Secret Data Engineering Tools
+1. Python
+Python is a popular general-purpose programming language. It’s easy to learn and has become the de-facto standard when it comes to data engineering.
+
+Python can be called the Swiss army knife of programming languages due to its multiple use cases, especially in building data pipelines. Data engineers use Python to code ETL frameworks, API interactions, automation, and data munging tasks such as reshaping, aggregating, joining disparate sources, etc
+
+A simple syntax and an abundance of third-party libraries are other benefits of Python. Most importantly, this programming language helps decrease development time, which results in fewer expenses for companies. These days, Python is a must-know programming language in over two-thirds of data engineer job listings.
+
+2. SQL
+Querying is the bread and butter for all data engineers. SQL (Structured Query Language) is one of the key tools used by data engineers to create business logic models, execute complex queries, extract key performance metrics, and build reusable data structures.
+
+SQL is one of the most important tools that help access, update, insert, manipulate, and modify data using queries, data transformation techniques, and more.
+
+3. PostgreSQL
+PostgreSQL is the most popular open-source relational database in the world. One of the many reasons for PostgreSQL’s popularity is its active open-source community–it’s also not a company-led open-source tool like DBMS or MySQL.
+
+PostgreSQL is lightweight, highly flexible, highly capable, and is built using an object-relational model. It offers a wide range of built-in and user-defined functions, extensive data capacity, and trusted data integrity. Specifically designed to work with large datasets while offering high fault tolerance, PostgreSQL makes an ideal choice for data engineering workflows.
+
+4. MongoDB
+MongoDB is a popular NoSQL database. It’s easy-to-use, highly flexible, and can store and query both structured and unstructured data at a high scale. NoSQL databases (such as MongoDB) gained popularity due to their ability to handle unstructured data. Unlike relational databases (SQL) with rigid schemas, NoSQL databases are much more flexible and store data in simple forms that are easy to understand.
+
+Features such as a distributed key-value store, document-oriented NoSQL capabilities, and MapReduce calculation capabilities make MongoDB an excellent choice for processing huge data volumes. Data engineers work with a lot of raw, unprocessed data, making MongoDB a classic choice that preserves data functionality while allowing horizontal scale.
+
+5. Apache Spark
+Businesses today understand the importance of capturing data and making it available within the organization quickly. Stream Processing allows you to query continuous data streams in real-time–including data such as sensor data, user activity on a website, data from IoT devices, financial trade data, and more. Apache Spark represents one such popular implementation of Stream Processing.
+
+An open-source analytics engine known for its large-scale data processing capabilities, Apache Spark supports multiple programming languages, including Java, Scala, R, and Python. Spark can process terabytes of streams in micro-batches and uses in-memory caching and optimized query execution.

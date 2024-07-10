@@ -102,6 +102,7 @@ document_content_description = "Brief description of the wine"
 
 llm = OpenAI(temperature=0.0, verbose = True)
 
+query ="What are the different grape varieties used in the wines?"
 #create the retriever 
 retriever = SelfQueryRetriever.from_llm(
     llm,
@@ -111,6 +112,11 @@ retriever = SelfQueryRetriever.from_llm(
     verbose=True
 )
 
+results = retriever.get_relevant_documents(query)
+
+# print("Structured Query:",structured_query)
+print(results)
+'''
 chain = RetrievalQA.from_chain_type(
     llm=llm,
     retriever=retriever,
@@ -130,3 +136,4 @@ response = chain.invoke(
 )
 
 print(response)
+'''
