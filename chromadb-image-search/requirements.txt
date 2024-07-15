@@ -1,0 +1,4 @@
+chromadb
+pillow
+open-clip-torch
+matplotlib
