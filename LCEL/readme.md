@@ -1,7 +1,8 @@
 # Langchain Expression Language (LCEL)
 
-### RunnablePassThrough
+![alt text](image.png)
 
-### RunnableParallel
-
-### RunnableLambda
+### Runnables
+- RunnablePassThrough
+- RunnableParallel
+- RunnableLambda
