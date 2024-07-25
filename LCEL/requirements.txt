@@ -4,3 +4,4 @@ langchain_community
 python_dotenv
 chromadb
 langsmith
+faiss-cpu
