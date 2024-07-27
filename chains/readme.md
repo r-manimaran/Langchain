@@ -2,3 +2,9 @@
 - Chains are the core for LangChain.
 - Simple a chain of components executed in a particular order
 - Simplest is LLMChain 
+
+
+
+
+# Router chain
+![alt text](image.png)
