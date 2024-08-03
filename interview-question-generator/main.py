@@ -6,6 +6,7 @@ load_dotenv()
 
 #enable logging
 import logging
+
 logging.basicConfig(filename="app.log", level=logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 #logger.log("Logging Started")
