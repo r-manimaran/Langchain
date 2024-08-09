@@ -1,0 +1,12 @@
+langchain
+langchain_community
+azure-storage-blob
+streamlit
+openai
+python-dotenv
+streamlit_chat
+langchain_openai
+azure-search-documents
+azure.identity
+unstructured
+python-magic-bin
