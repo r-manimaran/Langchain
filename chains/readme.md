@@ -8,3 +8,11 @@
 
 # Router chain
 ![alt text](image.png)
+
+# Stuff chain
+
+# Refine documents chain
+
+# Map reduce documents chain
+
+# Map re-rank documents chain
