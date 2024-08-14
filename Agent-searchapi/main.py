@@ -16,4 +16,9 @@ agent = initialize_agent(
     verbose=True,
     prompt=prompt
 )
-agent.run("what is the Time now in Chennai")
+st.title("Langchain App to search in internet")
+st.write("This app allows you to search in internet using Serpapi tool")
+input_text = st.text_input("Search query", key="input")
+submit = st.button("Search")
+if submit:
+    st.write(agent.run(input_text))
