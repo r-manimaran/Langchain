@@ -1,0 +1,15 @@
+langchain
+langchain_community
+langchain_openai
+python-dotenv
+langfuse
+fastapi
+PyJWT
+bcrypt
+pgvector
+uvicorn
+fastapi-login
+email-validator
+async-generator
+psycopg2
+python-multipart
