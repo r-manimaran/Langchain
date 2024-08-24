@@ -23,6 +23,7 @@
 ![alt text](image-5.png)
 
 ## Run the App
+
 ```bash
 streamlit main:app --reload
 ```
