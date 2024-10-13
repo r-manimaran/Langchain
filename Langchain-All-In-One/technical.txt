@@ -1,0 +1,98 @@
+.Net & .Net Core Web API:
+.NET Framework vs .NET Core: .NET Core is cross-platform, open-source, and optimized for microservices and high-performance applications.
+Dependency Injection (DI): Built-in DI in .NET Core simplifies testability and decouples components.
+Middleware: Custom middleware in .NET Core is used to handle HTTP requests and responses.
+Versioning in Web API: Best practices for versioning APIs include URL path versioning, query string versioning, and header versioning.
+Asynchronous Programming: Use of async/await for non-blocking I/O operations to enhance performance.
+
+
+FastAPI:
+FastAPI Core Strengths: High performance, type hints for request validation, and auto-generated OpenAPI documentation.
+Dependency Injection in FastAPI: Simplifies code testing and component decoupling.
+Data Validation: Use Pydantic for automatic request body validation, type checking, and schema generation.
+Concurrency: Handles requests asynchronously using Python's asyncio for fast API responses.
+Security Features: OAuth2, JWT token-based authentication.
+
+
+Generative AI:
+Transformer Models: Understanding of architectures like GPT, BERT for natural language processing tasks.
+Model Training: Fine-tuning large models (like GPT or BERT) for specific tasks such as text generation, classification.
+Text-to-Image Models: Use of diffusion models or GANs for text-to-image tasks.
+Common Libraries: HuggingFace, TensorFlow, PyTorch for model development and deployment.
+Prompt Engineering: Optimizing prompts for generative AI models for more accurate and efficient output.
+
+AWS Services:
+EC2: Compute instances with auto-scaling and load balancing.
+Lambda: Serverless architecture for running code without provisioning or managing servers.
+S3: Object storage service, handling file storage with high availability.
+API Gateway: Manages APIs with caching, throttling, and security.
+RDS/ DynamoDB: RDS for relational databases and DynamoDB for NoSQL databases.
+CloudFormation/Terraform: Infrastructure as Code (IaC) for automating AWS resource provisioning.
+
+Azure Services:
+App Services: Managed hosting for web applications, REST APIs with scaling and deployment capabilities.
+Azure Functions: Serverless computing for event-driven applications.
+Azure Kubernetes Service (AKS): Container orchestration and deployment of Docker-based applications.
+Azure Blob Storage: Object storage for unstructured data with replication and geo-redundancy.
+Azure Active Directory: Identity and access management (IAM) for secure authentication across services.
+CosmosDB: Globally distributed, low-latency NoSQL database for scalable applications.
+
+OpenID Connect (OIDC):
+OIDC Overview: OIDC is an identity layer built on top of OAuth 2.0 for authentication.
+Functionality: It allows clients (like web/mobile apps) to verify the identity of end-users based on authentication performed by an authorization server.
+Flow: Uses tokens like ID Tokens, which are JWTs containing claims about the user (name, email, etc.) and Access Tokens for API access.
+Common Use Cases: Single Sign-On (SSO), securing web APIs, and federated identity.
+OIDC Providers: Key providers include Azure AD, Google Identity, Okta, and Auth0.
+
+ForgeRock:
+ForgeRock Overview: A comprehensive, enterprise-grade digital identity platform.
+Core Products: Includes Identity Management (IDM), Access Management (AM), Identity Gateway (IG), and Directory Services (DS).
+Key Features:
+Identity Management: Provisioning and lifecycle management of user identities.
+Access Management: Authentication, authorization, single sign-on (SSO), and MFA.
+Adaptive Authentication: Allows context-based authentication (location, behavior).
+Integrations: Works well with OIDC, OAuth2, SAML, and provides fine-grained access control.
+
+Ping Access:
+Ping Access Overview: A centralized web and API access security gateway.
+Core Features:
+Web and API Security: Provides secure access to both web applications and APIs.
+Fine-Grained Access Control: Offers policy-based access control for APIs and web resources.
+SSO & MFA: Integrates with PingFederate for seamless SSO and multi-factor authentication (MFA).
+OAuth 2.0 and OIDC Integration: Can act as a policy enforcement point for OAuth 2.0 resource servers.
+Common Use Cases: API security, securing microservices, and centralized access control for enterprise applications.
+
+Serilog:
+Serilog Overview: A structured logging library for .NET applications.
+Key Features:
+Structured Logging: Logs are stored in structured formats (e.g., JSON) for better queryability.
+Log Sinks: Supports various destinations for logs such as files, Seq, databases, and cloud platforms like Elasticsearch.
+Enrichers: Adds additional context to logs such as machine names, thread IDs, and more.
+Integration: Integrates well with ASP.NET Core for capturing logs across the app lifecycle.
+
+Prometheus:
+Prometheus Overview: A monitoring and alerting toolkit primarily for cloud-native, containerized applications.
+Key Features:
+Time-Series Database: Stores metrics with timestamps and allows efficient querying.
+Pull-Based Model: Prometheus scrapes metrics from targets (applications, services) at regular intervals.
+PromQL: Powerful query language to retrieve and manipulate metrics data.
+AlertManager: Allows configuration of alert rules based on metrics and sends notifications (Slack, email, etc.).
+Common Use Cases: Monitoring system performance, tracking application metrics, and setting up alerting thresholds.
+
+Grafana:
+Grafana Overview: An open-source platform for visualizing metrics and analytics from various data sources.
+Key Features:
+Multi-Source Data Visualization: Supports multiple data sources, including Prometheus, Elasticsearch, MySQL, and more.
+Custom Dashboards: Create real-time, interactive dashboards to visualize time-series metrics.
+Alerting: Can set up alert rules based on metric thresholds and send notifications.
+Panel Plugins: Extensible with plugins for more complex visualizations (graphs, heatmaps, geomaps, etc.).
+Common Use Cases: Visualizing infrastructure metrics, application performance, and real-time monitoring.
+
+Seq:
+Seq Overview: A centralized logging server for structured log data, commonly used with Serilog.
+Key Features:
+Log Aggregation: Collects logs from multiple applications and allows searching, filtering, and correlation of logs.
+Structured Logs: Stores logs in structured formats for improved searchability and analytics.
+Alerting and Notifications: Allows setting up alerts on specific log patterns or error conditions.
+Integration: Works seamlessly with Serilog, ASP.NET, and other .NET logging libraries.
+Common Use Cases: Centralized logging platform for .NET applications, debugging, and tracking issues in production environments.
