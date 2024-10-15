@@ -7,3 +7,4 @@ chromadb
 redis
 langchain-chroma
 langchainhub
+tavily-python
