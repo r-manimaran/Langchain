@@ -1,0 +1,6 @@
+langchain
+langchain_openai
+langchain_community
+python_dotenv
+crewai
+duckduckgo-search
