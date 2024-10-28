@@ -10,11 +10,11 @@ def get_rerank_response(query, passages,choice):
     if choice =='Nano':
         ranker = Ranker()
     elif choice == 'Small':
-        ranker = Ranker(ranking_model="ms-marco-MiniLM-L-12-v2",cache_dir="/opt")
+        ranker = Ranker(model_name="ms-marco-MiniLM-L-12-v2",cache_dir="/opt")
     elif choice == 'Medium':
-        ranker = Ranker(ranking_model="rank-T5-Flan", cache_dir="/opt")
+        ranker = Ranker(model_name="rank-T5-Flan", cache_dir="/opt")
     elif choice == 'Large':
-        ranker = Ranker(ranking_model="ms-marco-MultiBERT-L-12", cache_dir="/opt")
+        ranker = Ranker(model_name="ms-marco-MultiBERT-L-12", cache_dir="/opt")
     reRankRequest = RerankRequest(query=query, passages=passages)
     results = ranker.rerank(reRankRequest)
     return results
