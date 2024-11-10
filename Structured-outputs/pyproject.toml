@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "structured-outputs"
+version = "0.1.0"
+description = ""
+authors = ["Manimaran"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+instructor = "^1.6.3"
+openai = "^1.54.3"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+langchain = "^0.3.7"
+langchain-openai = "^0.2.6"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
