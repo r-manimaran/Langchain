@@ -9,4 +9,6 @@
 ## Routing via LLM based classifier
 - Slower & more expensive
 - more accurate
-- 
+
+## Routing via Tool calling
+
