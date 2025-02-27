@@ -1,5 +1,20 @@
 # FastApi with Ollama - Deepseek-r1
 
+This project demonstrates the integration of FastAPI with Ollama, specifically using the Deepseek-r1 language model. It provides a REST API interface to interact with the Deepseek-r1:7b model running in a Docker container. The application includes API key authentication, request handling, and container management features.
+
+## Key Features
+- Docker-based Ollama deployment
+- FastAPI integration with Deepseek-r1:7b model
+- API key authentication
+- Open-WebUI interface support
+- Comprehensive container management
+
+## Prerequisites
+- Docker
+- Python with FastAPI
+- Ollama
+
+
 ## Ollama in Docker
 
 - Download and run the `ollama` in the docker container
@@ -88,10 +103,7 @@ docker kill ollama
 # Stop multiple containers by listing their names/IDs
 docker stop container1 container2 container3
 ```
-4. To stop all running containers
-```bash
-docker stop $(docker ps -q)
-```
+
 
 ## Some useful commands
 ```bash
