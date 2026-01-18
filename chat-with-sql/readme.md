@@ -20,6 +20,7 @@ contains the below columns
 ### Background agent processing
 ![alt text](image-2.png)
 
+![alt text](image-3.png)
 
 # Environment file
 create a .env file and add the OPEN AI API as below

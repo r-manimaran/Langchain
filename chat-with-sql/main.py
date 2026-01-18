@@ -3,13 +3,13 @@
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.utilities import SQLDatabase
-from langchain.agents import create_sql_agent
+from langchain_community.agent_toolkits import create_sql_agent
 from langchain_openai import OpenAI
-from langchain.agents.agent import AgentType
-from langchain.agents.agent_toolkits import  SQLDatabaseToolkit
+
+from langchain_community.agent_toolkits import SQLDatabaseToolkit
 from langchain_openai import ChatOpenAI
-from langchain.sql_database import SQLDatabase
-from langchain.prompts.chat import ChatPromptTemplate
+
+
 from sqlalchemy import create_engine
 from langchain_community.callbacks import get_openai_callback
 
@@ -26,12 +26,12 @@ query = st.text_input("Ask here about your database")
 # Enterprise DB to be used
 DRIVER = "ODBC Driver 17 for SQL Server"
 USERNAME = "sa"
-PSSWD = "passwordhere"  # replace with your password
+PSSWD = "password$"  # replace with your password
 # SQL Server instance name
-SERVERNAME = "DARSHAN-PC"
-INSTANCENAME = "\SQLEXPRESS"
+SERVERNAME = "MARAN"
+INSTANCENAME = ""
 DB = "GasExpense"
-TABLE = "GasExpenses"
+TABLE = "FuelPurchases"
 
 
 conn_executemany = create_engine(
@@ -50,7 +50,7 @@ prompt=ChatPromptTemplate.from_messages(
         you are a very intelligent AI assistant who is expert in identifing relevant questions from user and converting into sql queriers to generate coorect answer.
         Please use the belolw context to write the microsoft sql queries, dont use mysql queries.
         context:
-        you must query against the connected database,it has 1 table GasExpenses.
+        you must query against the connected database,it has 1 table FuelPurchases.
         """
         ),
         ("user","{question}\ ai: ")
@@ -62,9 +62,7 @@ agent = create_sql_agent(
     llm=llm,
     toolkit=toolkit,
     verbose=True,
-    prefix="Agent",
-    agent="zero-shot-react-description",
-    format_instructions=False,
+    agent_type="zero-shot-react-description",
     max_execution_time=100,
     max_iterations=1000
 )
